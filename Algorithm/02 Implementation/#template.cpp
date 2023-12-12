@@ -6,7 +6,7 @@
 #include <string>
 #include <map>
 #include <unordered_map>
-
+typedef long long ll
 using namespace std;
 
 int solving(){
