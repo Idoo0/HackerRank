@@ -20,7 +20,6 @@ int solving(int n, int c, int m){
     res += choco;
   }
 
-
   return res;
 }
 
