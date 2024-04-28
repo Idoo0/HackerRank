@@ -19,12 +19,7 @@ vector<string> solving(int n, vector<string> vect){
 			bottom = vect[i+1][j] - '0';
 			left = vect[i][j-1] - '0';
 			right = vect[i][j+1] - '0';
-			e1 = vect[i-1][j-1] - '0';
-			e2 = vect[i-1][j+1] - '0';
-			e3 = vect[i+1][j-1] - '0';
-			e4 = vect[i+1][j+1] - '0';
-			if(depth >= top and depth >= bottom and depth >= left and depth >= right and
-				depth >= e1 and depth >= e2 and depth >= e3 and depth >= e4){
+			if(depth > top and depth > bottom and depth > left and depth > right){
 				res[i][j] = 'X';
 			}			
 		}
