@@ -10,14 +10,14 @@ using namespace std;
 
 int solving(){
 
-	int res=0;
+  int res=0;
 
 
-	return res;
+  return res;
 }
 
 int main(){
 
-	cout << solving();
+  cout << solving();
 }
 
